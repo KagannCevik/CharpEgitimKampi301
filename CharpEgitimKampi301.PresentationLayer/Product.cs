@@ -25,5 +25,10 @@ namespace CharpEgitimKampi301.PresentationLayer
             var values = productManager.TGetAll();
             dataGridView1.DataSource = values;
         }
+
+        private void Product_Load(object sender, EventArgs e)
+        {
+            //label1.Text = "Kağan";
+        }
     }
 }

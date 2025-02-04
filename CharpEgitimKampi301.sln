@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpEgitimKampi301.Present
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharpEgitimKampi301.EFProject", "CharpEgitimKampi301.EFProject\CharpEgitimKampi301.EFProject.csproj", "{79877BB8-851B-4D6D-9C81-4935480ADEF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialCrm", "FinancialCrm\FinancialCrm.csproj", "{C8AACC45-17FB-49AF-84D7-1A88E61B844A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{79877BB8-851B-4D6D-9C81-4935480ADEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79877BB8-851B-4D6D-9C81-4935480ADEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79877BB8-851B-4D6D-9C81-4935480ADEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AACC45-17FB-49AF-84D7-1A88E61B844A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AACC45-17FB-49AF-84D7-1A88E61B844A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AACC45-17FB-49AF-84D7-1A88E61B844A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AACC45-17FB-49AF-84D7-1A88E61B844A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

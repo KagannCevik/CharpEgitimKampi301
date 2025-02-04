@@ -36,12 +36,11 @@ Kullanıcıların sisteme giriş yapmaları için kullanıcı adı ve şifre bil
 Yanlış giriş yapıldığında sistem uyarı verecektir.
 Boş giriş yapılmasına izin verilmez.
 Başarılı giriş sonrası kullanıcı, Dashboard ekranına yönlendirilir.
-<br>
+
 
 ![Image](https://github.com/user-attachments/assets/01c04e2f-e36d-4609-b793-68a41129074c)
 
 
-<br>
 #🔹 Ana Panel (Dashboard)
 Dashboard ekranında kullanıcılar:
 
@@ -61,7 +60,7 @@ Kullanıcılar, bankalarındaki toplam bakiyeleri görebilir.
 Son 5 banka hareketi detaylı olarak görüntülenebilir.
 
 
-<br>
+
 ![Image](https://github.com/user-attachments/assets/ed094d76-2130-4fb9-a89a-b61858593de2)
 
 
@@ -72,7 +71,7 @@ Kullanıcılar faturalarını ekleyebilir, listeleyebilir, güncelleyebilir ve s
 Faturalar, başlık, miktar ve ödeme periyoduna göre kategorize edilebilir.
 
 
-<br>
+
 ![Image](https://github.com/user-attachments/assets/b48d4038-ee7f-44bc-8950-58b10645f835)
 
 
@@ -83,7 +82,7 @@ CRUD işlemleriyle yeni gider ekleme, güncelleme ve silme yapılabilir.
 Tüm harcamalar görüntülenebilir ve detaylı listeleme yapılabilir.
 
 
-<br>
+
 ![Image](https://github.com/user-attachments/assets/61c748f3-0b49-4864-8ddb-aafe441a0854)
 
 
@@ -92,7 +91,7 @@ Tüm harcamalar görüntülenebilir ve detaylı listeleme yapılabilir.
 Kullanıcılar, hesaplarına gelen havaleleri inceleyebilir.
 
 
-<br>
+
 ![Image](https://github.com/user-attachments/assets/014c092b-a7c4-4f8f-ac5d-08ee6ed66b28)
 
 
@@ -103,10 +102,10 @@ Bu bölümde kullanıcılar, hesaplarına gelen veya çıkan banka hareketlerini
 Son yapılan banka işlemleri listelenir.
 Banka hareketleri üzerinde CRUD işlemleri (ekleme, güncelleme, silme) yapılabilir.
 Her işlem, tarih, açıklama ve tutar gibi detaylarla birlikte gösterilir.
-<br>
 
 
 ![Image](https://github.com/user-attachments/assets/443d26c4-7a4c-4030-8927-ecb975dafeff)
+
 
 
 

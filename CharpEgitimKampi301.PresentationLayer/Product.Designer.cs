@@ -46,6 +46,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.cmbCategory = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -203,12 +204,22 @@
             this.cmbCategory.Size = new System.Drawing.Size(170, 24);
             this.cmbCategory.TabIndex = 25;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(13, 256);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 16);
+            this.label7.TabIndex = 26;
+            this.label7.Text = "Deneme";
+            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(159)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(1058, 534);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.cmbCategory);
             this.Controls.Add(this.btnGetById);
             this.Controls.Add(this.btnUpdate);
@@ -229,6 +240,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Product";
             this.Text = "Product";
+            this.Load += new System.EventHandler(this.Product_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -255,5 +267,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.ComboBox cmbCategory;
+        private System.Windows.Forms.Label label7;
     }
 }

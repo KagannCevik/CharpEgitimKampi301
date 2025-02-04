@@ -23,7 +23,7 @@ namespace FinancialCrm
             if(db.Users.Where(x=>x.UserName==TxtUserName.Text&&x.Password==txtUserPassword.Text).FirstOrDefault() != null)
             {
                 MessageBox.Show("Giriş Başarılı","Giriş",MessageBoxButtons.OK,MessageBoxIcon.Information);
-                FrmBanks fr=new FrmBanks();
+                FrmDashBoard fr=new FrmDashBoard();
                 fr.Show();
                 this.Hide();
             }
